@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class titi
+public class kaii9
 {
     public static void main (String[] args){
     Scanner sc = new Scanner(System.in);
