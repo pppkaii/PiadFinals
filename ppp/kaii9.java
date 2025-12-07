@@ -1,7 +1,18 @@
-int sum = 0, num;
+import java.util.Scanner;
+public class titi
+{
+    public static void main (String[] args){
+    Scanner sc = new Scanner(System.in);
+
+int sum = 0;
+int num;
+
 do {
-    num = sc.nextInt();
+    System.out.print("Enter a number (0 to stop): ");
+    num = sc.nextInt();  // now it's declared
     sum += num;
 } while (num != 0);
 
 System.out.println("Sum = " + sum);
+}
+}
